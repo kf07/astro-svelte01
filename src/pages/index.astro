@@ -1,7 +1,6 @@
 ---
-// import Counter from "../components/Counter.svelte";
-// const count = 0;
-// console.log(count);
+import Counter from "../components/Counter.svelte";
+const count = 0;
 import Empty from "../components/Empty.svelte";
 ---
 
@@ -14,7 +13,6 @@ import Empty from "../components/Empty.svelte";
 	<title>Astro</title>
 </head>
 <body>
-<!--<Counter client:load/>-->
-<Empty client:only="svelte" />
+<Counter client:load/>
 </body>
 </html>
